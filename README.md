@@ -1,6 +1,6 @@
 # jsprimer
 
-ecma6 learning with jsprimer
+ecma6 learning with jsprimer - https://jsprimer.net/
 
 `launch.json`
 

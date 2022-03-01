@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Example</title>
+    <title id="title">Example</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='basics.js'></script>
@@ -19,6 +19,12 @@
 
 <body>
     sample
+    <h1 id="showtitle"></h1>
+    <a href="#" id="anchorurl">http://...</a>
+    <script src="domchange.js">
+        const someUrl = `https://${title}/${h1title}/`;
+        console.log(someUrl);
+    </script>
 </body>
 
 </html>
